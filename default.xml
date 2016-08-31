@@ -81,7 +81,7 @@
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
+  <project path="external/busybox" name="aopp/android_external_busybox" remote="aopp" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
   <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" remote="aosp" />
