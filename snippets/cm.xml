@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Aopp additions -->
+  <project path="vendor/pwnieexpress" name="aopp/android_vendor_px" remote="aopp" />
+
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="aopp/android_platform" remote="aopp" />
   <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
@@ -39,7 +42,7 @@
   <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" />
   <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" />
-  <project path="packages/apps/CMUpdater" name="LineageOS/android_packages_apps_CMUpdater" />
+  <project path="packages/apps/CMUpdater" name="aopp/android_packages_apps_CMUpdater" remote="aopp" />
   <project path="packages/apps/CustomTiles" name="LineageOS/android_packages_apps_CustomTiles" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
@@ -48,7 +51,7 @@
   <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
-  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="aopp/android_packages_apps_SetupWizard" remote="aopp" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
   <project path="packages/apps/ThemeChooser" name="LineageOS/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
@@ -61,8 +64,8 @@
   <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />
   <project path="packages/themes/HexoLibre" name="LineageOS/android_packages_themes_HexoLibre" groups="themes" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
-  <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
-  <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
+  <project path="system/extras/su" name="aopp/android_system_extras_su" remote="aopp" />
+  <project path="vendor/cm" name="aopp/android_vendor_cm" remote="aopp" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
@@ -119,6 +122,7 @@
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
 
   <!-- Infrastructure -->
+  <!--
   <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
   <project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
   <project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
@@ -127,4 +131,5 @@
   <project path="lineage/updater" name="LineageOS/lineageos_updater" groups="infra" revision="master" />
   <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
   <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+  -->
 </manifest>
